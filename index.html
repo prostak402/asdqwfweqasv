@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-<script src="https://cdn.tailwindcss.com"></script></head>
+<link rel="stylesheet" href="style.css"></head>
 
 <body class="min-h-screen flex flex-col items-center text-white font-[Inter] tracking-tight overflow-x-hidden bg-slate-950">
 
@@ -423,17 +423,6 @@
 </div>
 
 <!-- ───────────────────── АНИМАЦИИ И ФОНЫ ───────────────────── -->
-<style>
-@keyframes fadeInUp{0%{opacity:0;transform:translateY(32px);}100%{opacity:1;transform:translateY(0);}}
-.animate-fade-in-up{animation:none!important;opacity:1!important;transform:none!important;}
-@keyframes gradientShift{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
-.bg-animated{background:linear-gradient(130deg,#0f172a 0%,#1e3a8a 35%,#3b0764 75%,#0f172a 100%);background-size:240% 240%;animation:none!important;}
-.bg-gradient-radial-1{background:radial-gradient(circle at center,rgba(56,189,248,.5) 0%,rgba(56,189,248,0) 70%);}
-.bg-gradient-radial-2{background:radial-gradient(circle at center,rgba(147,51,234,.5) 0%,rgba(147,51,234,0) 70%);}
-.bg-grid{background-image:repeating-linear-gradient(0deg,transparent 0px,transparent 23px,rgba(255,255,255,.04) 23px,rgba(255,255,255,.04) 24px),repeating-linear-gradient(90deg,transparent 0px,transparent 23px,rgba(255,255,255,.04) 23px,rgba(255,255,255,.04) 24px);}
-.bg-noise{background-image:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMiIgaGVpZ2h0PSIyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNmZmYiIC8+PHJlY3QgeD0iMSIgeT0iMSIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iI2ZmZiIgLz48L3N2Zz4=");}
-*{transition:none!important;}
-</style>
 
 <!-- ───────────────────── СКРИПТЫ ───────────────────── -->
 <script>
